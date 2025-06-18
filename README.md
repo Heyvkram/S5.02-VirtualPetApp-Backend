@@ -52,13 +52,13 @@ Before you begin, ensure you have the following installed on your system:
 2.  **Create the MySQL Database:**
     Connect to your MySQL server and run the following command:
     ```sql
-    CREATE DATABASE mascotes_db;
+    CREATE DATABASE virtualpetdb;
     ```
 
 3.  **Configure Application Properties:**
     Open the `src/main/resources/application.properties` file and update the database connection settings with your MySQL credentials:
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/mascotes_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    spring.datasource.url=jdbc:mysql://localhost:3306/virtualpetdb
     spring.datasource.username=your_mysql_username
     spring.datasource.password=your_mysql_password
     ```
